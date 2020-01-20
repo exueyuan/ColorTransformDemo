@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <!-- Flipboard Colors -->
     <color name="brand_red">#FF1ED7D7</color>
     <color name="brand_red_90">#F21ED7D7</color>
@@ -10,38 +9,38 @@
     <color name="transparent">#00FFFFFF</color>
 
     <color name="image_foreground_darkening">#40FFFFFF</color>
-    <color name="image_foreground_darkening_50_percent">#80000000</color>
-    <color name="image_foreground_darkening_60_percent">#99000000</color>
+    <color name="image_foreground_darkening_50_percent">#80FFFFFF</color>
+    <color name="image_foreground_darkening_60_percent">#99FFFFFF</color>
     <color name="image_foreground_darkening_gray_40">#66DBDBDB</color>
     <color name="background_light">#FF080808</color>
     <color name="background_tweetlist">#FF0D0D0D</color>
     <color name="background_light_highlighted">#FF181818</color>
     <color name="header_grey">#FFCFCFCF</color>
     <color name="content_drawer_title_separator">#FF6A6A6A</color>
-    <color name="content_drawer_title">#FF000000</color>
+    <color name="content_drawer_title">#FFFFFFFF</color>
     <color name="content_drawer_subtitle_grey">#FF555555</color>
     <color name="text_white">#FF000000</color>
     <color name="semi_transparent_white">#80000000</color>
     <color name="text_black">#FFD9D9D9</color>
-    <color name="text_lightgray">#FF999999</color>
+    <color name="text_lightgray">#FF666666</color>
     <color name="text_paginator">#FF3C3C3C</color>
-    <color name="text_lightgray_inverted">#AAFFFFFF</color>
+    <color name="text_lightgray_inverted">#AA000000</color>
     <color name="text_link_blue">#FFDC3303</color>
     <color name="text_link_darker_blue">#FFD45228</color>
     <color name="text_actionbar_button_blue">#FFFF7039</color>
     <color name="divider_light">#66000000</color>
     <color name="lightgray">#FF333333</color>
     <color name="lightgray_background">#FF111111</color>
-    <color name="true_black">#FF000000</color>
+    <color name="true_black">#FFFFFFFF</color>
     <color name="translucent_black_66">#AAFFFFFF</color>
-    <color name="translucent_black_60">#99000000</color>
-    <color name="translucent_black_50">#80000000</color>
-    <color name="translucent_black_30">#4D000000</color>
+    <color name="translucent_black_60">#99FFFFFF</color>
+    <color name="translucent_black_50">#80FFFFFF</color>
+    <color name="translucent_black_30">#4DFFFFFF</color>
     <color name="translucent_black_00">#00FFFFFF</color>
-    <color name="black">#FF000000</color>
-    <color name="gray_dark">#FF333333</color>
+    <color name="black">#FFFFFFFF</color>
+    <color name="gray_dark">#FFCCCCCC</color>
     <color name="gray">#FF999999</color>
-    <color name="gray_medium">#FF999999</color>
+    <color name="gray_medium">#FF666666</color>
     <color name="gray_light">#FF333333</color>
     <color name="gray_90">#FF1A1A1A</color>
     <color name="gray_share_package">#FF1A1A15</color>
@@ -80,7 +79,7 @@
     <color name="linked_text_blue">#FFDB4111</color>
     <color name="separator">#FF333333</color>
     <color name="separator_light">#FF222222</color>
-    <color name="separator_inverted">#00FFFFFF</color>
+    <color name="separator_inverted">#00000000</color>
 
     <!-- Tile border -->
     <color name="tile_border_default">#22FFFFFF</color>
@@ -88,7 +87,7 @@
     <color name="tile_fill_pressed">#22FFFFFF</color>
 
     <!-- no content tile -->
-    <color name="no_content_tile_background">#FF777777</color>
+    <color name="no_content_tile_background">#FF888888</color>
     <color name="no_content_tile_text">#FF000000</color>
 
     <!-- more tile -->
@@ -199,7 +198,7 @@
     <color name="color_979797">#FF686868</color>
     <color name="color_EEEEEE">#FF111111</color>
     <color name="color_AFAFAF">#FF505050</color>
-    <color name="color_000000">#FF000000</color>
+    <color name="color_000000">#FFFFFFFF</color>
     <color name="color_F52828">#FF0AD7D7</color>
     <color name="color_F5CACA">#FF0A3535</color>
     <color name="color_4DF52828">#4D0AD7D7</color>

@@ -22,7 +22,7 @@ public class MyClass {
 
 
         copyFileUsingJava7Files("ColorForm/libs/colors.xml", "ColorForm/libs/trans_colors.xml");
-        DomUtils.changeColor("ColorForm/libs/trans_colors.xml");
+        DomUtils.changeColor("ColorForm/libs/transform/colors.xml");
     }
 
     private static void copyFileUsingJava7Files(String source, String dest) {
@@ -79,16 +79,8 @@ public class MyClass {
 
     //16进制转color
     private static Color fromStrToARGB(String str) {
-        if (str.startsWith("#")) {
-            str = str.substring(1);
-        }
-        if (str.length() == 6) {
-            str = "FF" + str;
-        }
-        if (str.length() == 4) {
-            str = "FF00" + str;
-        }
-        System.out.println("颜色值：" + str);
+        str = getUpperCaseColorString(str);
+        System.out.println("颜色值：" + str.toUpperCase());
         String str1 = str.substring(0, 2);
         String str2 = str.substring(2, 4);
         String str3 = str.substring(4, 6);
@@ -99,6 +91,19 @@ public class MyClass {
         int blue = Integer.parseInt(str4, 16);
         Color color = new Color(red, green, blue, alpha);
         return color;
+    }
+
+    public static String getUpperCaseColorString(String str) {
+        if (str.startsWith("#")) {
+            str = str.substring(1);
+        }
+        if (str.length() == 6) {
+            str = "FF" + str;
+        }
+        if (str.length() == 4) {
+            str = "FF00" + str;
+        }
+        return str.toUpperCase();
     }
 
     private static String colorToHexValue(Color color) {
