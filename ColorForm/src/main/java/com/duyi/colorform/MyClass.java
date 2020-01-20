@@ -1,25 +1,23 @@
 package com.duyi.colorform;
 
+import org.w3c.dom.Document;
+
 import java.awt.Color;
 
 public class MyClass {
     public static void main(String[] args) {
 
-        String startColorString = "#FFB400";
+        String startColorString = "#FFb400";
 
         String transformColor = getTransformColorString(startColorString);
         System.out.println("startColor:" + startColorString);
         System.out.println("transformColor:" + transformColor);
 
-//        System.out.println("endColor:"+endColor.toString()+ ",透明度："+endColor.getAlpha());
-        /*String hexString = colorToHexValue(Color.RED);
-        System.out.println("16进制字符串:" + hexString);
-        Color color = fromStrToARGB(hexString);
-        System.out.println("16进制字符串转为颜色的ARGB值:("+String.valueOf(color.getAlpha())+","+String.valueOf(color.getRed())+","
-                +String.valueOf(color.getGreen())+","+String.valueOf(color.getBlue())+")");*/
+
+        DomUtils.changeColor("colors");
     }
 
-    private static String getTransformColorString(String color) {
+    public static String getTransformColorString(String color) {
         //        Color startColor = new Color(255, 180, 0, 58);
         Color startColor = fromStrToARGB(color);
 //        System.out.println("startColor:"+colorToHexValue(startColor));
@@ -53,6 +51,10 @@ public class MyClass {
         if (str.length() == 6) {
             str = "FF" + str;
         }
+        if (str.length() == 4) {
+            str = "FF00" + str;
+        }
+        System.out.println("颜色值：" + str);
         String str1 = str.substring(0, 2);
         String str2 = str.substring(2, 4);
         String str3 = str.substring(4, 6);
