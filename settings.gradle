@@ -1,0 +1,2 @@
+include ':app', ':ColorForm'
+rootProject.name='ColorTransformDemo'
