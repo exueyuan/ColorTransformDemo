@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flipboard Colors -->
+    <color name="brand_red">#FFE12828</color>
+    <color name="brand_red_90">#F2E12828</color>
+    <color name="brand_red_60">#99E12828</color>
+    <color name="link_blue">#FF0099CC</color>
+    <color name="cta_gray">#FF949494</color>
+    <color name="nav_gray">#FFBBBBBB</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="image_foreground_darkening">#40000000</color>
+    <color name="image_foreground_darkening_50_percent">#80000000</color>
+    <color name="image_foreground_darkening_60_percent">#99000000</color>
+    <color name="image_foreground_darkening_gray_40">#66242424</color>
+    <color name="background_light">#FFF7F7F7</color>
+    <color name="background_tweetlist">#FFF2F2F2</color>
+    <color name="background_light_highlighted">#FFE7E7E7</color>
+    <color name="header_grey">#303030</color>
+    <color name="content_drawer_title_separator">#959595</color>
+    <color name="content_drawer_title">#000000</color>
+    <color name="content_drawer_subtitle_grey">#AAAAAA</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+    <color name="text_black">#FF262626</color>
+    <color name="text_lightgray">#FF999999</color>
+    <color name="text_paginator">#FFC3C3C3</color>
+    <color name="text_lightgray_inverted">#AAFFFFFF</color>
+    <color name="text_link_blue">#FF23ccfc</color>
+    <color name="text_link_darker_blue">#FF2badd7</color>
+    <color name="text_actionbar_button_blue">#008FC6</color>
+    <color name="divider_light">#66FFFFFF</color>
+    <color name="lightgray">#CCCCCC</color>
+    <color name="lightgray_background">#EEEEEE</color>
+    <color name="true_black">#FF000000</color>
+    <color name="translucent_black_66">#AA000000</color>
+    <color name="translucent_black_60">#99000000</color>
+    <color name="translucent_black_50">#80000000</color>
+    <color name="translucent_black_30">#4D000000</color>
+    <color name="translucent_black_00">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="gray_dark">#FF333333</color>
+    <color name="gray">#FF666666</color>
+    <color name="gray_medium">#FF999999</color>
+    <color name="gray_light">#FFCCCCCC</color>
+    <color name="gray_90">#FFE5E5E5</color>
+    <color name="gray_share_package">#FFE5E5EA</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_80">#CDFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="red_content_drawer_cat_selected">#CC1F1E</color>
+    <color name="brand_red_button_selected">#FFA12828</color>
+    <color name="gray30">#FF4C4C4C</color>
+    <color name="gray35">#FF606060</color>
+    <color name="gray40">#FF666666</color>
+    <color name="grey_text_attribution">#AAAAAA</color>
+    <color name="tile_darkest">#FF7C7C7C</color>
+    <color name="tile_darker">#FF909090</color>
+    <color name="tile_dark">#FFA8A8A8</color>
+    <color name="blue">#FF0099CC</color>
+    <color name="blue_pressed">#FF0088CC</color>
+    <color name="blue_dark">#FF16418D</color>
+    <color name="following_down">#FFE6E6E6</color>
+    <color name="user_row_divider">#FFE6E6E6</color>
+
+    <color name="webview_progress_color">#5DB3E1</color>
+    <color name="line_color">#F0F0F0</color>
+
+    <!-- status items -->
+    <color name="author_color">#262626</color>
+    <color name="status_color">#111111</color>
+    <color name="title_color">#262626</color>
+    <color name="author_color_inverted">#FFFFFF</color>
+    <color name="status_color_inverted">#FFFFFF</color>
+    <color name="title_color_inverted">#FFFFFF</color>
+    <color name="linked_text_blue">#24BEEE</color>
+    <color name="separator">#CCCCCC</color>
+    <color name="separator_light">#DDDDDD</color>
+    <color name="separator_inverted">#00FFFFFF</color>
+
+    <!-- Tile border -->
+    <color name="tile_border_default">#22000000</color>
+    <color name="tile_border_pressed">#44000000</color>
+    <color name="tile_fill_pressed">#22000000</color>
+
+    <!-- no content tile -->
+    <color name="no_content_tile_background">#777777</color>
+    <color name="no_content_tile_text">#FFFFFF</color>
+
+    <!-- more tile -->
+    <color name="more_tile_background">#FFEFEFEF</color>
+    <color name="more_tile_text">#FFBBBBBB</color>
+
+    <!-- Audio notification -->
+    <color name="audio_notification_background">#FF121314</color>
+    <color name="audio_notification_divider">#383939</color>
+
+    <!-- content drawer -->
+    <color name="content_drawer_lines">#E2E2E2</color>
+
+    <!-- tablet content drawer -->
+    <color name="content_drawer_background_tablet">#FFF0F0F0</color>
+    <color name="content_drawer_divider_dark_tablet">#FFD0D0D0</color>
+    <color name="content_drawer_divider_light_tablet">#FFFFFF</color>
+    <color name="content_drawer_header_tablet">#FF979797</color>
+
+    <!-- TOC -->
+    <color name="coverstories_from">#FFF0A030</color>
+
+    <!-- audio player -->
+    <color name="audioplayer_background_top">#F6333333</color>
+    <color name="audioplayer_background_bottom">#F6222222</color>
+
+    <!-- magazines -->
+    <color name="share_magazine_selected_overlay">#33000000</color>
+    
+    <!--Pagebox-->
+    <color name="pagebox_list_background">#A6A6AB</color>
+    <color name="pagebox_list_divider">#BFBFCC</color>
+    <color name="pagebox_list_title">#FFFFFF</color>
+    <color name="pagebox_list_text">#FFFFFF</color>
+
+    <!-- progress -->
+    <color name="determinate_busy_view_color">#D6D6D6</color>
+    
+    <color name="pagebox_sponsored_background_color">#78000000</color>
+    <color name="pagebox_sponsored_text_color">#d1d1d1</color>
+
+    <!-- Search -->
+    <color name="topic_tag_border">#999999</color>
+    <color name="topic_tag_text">#999999</color>
+    <color name="see_all_text">#2992D4</color>
+    <color name="recent_trending_item">#1D1D1D</color>
+    <color name="recent_trending_title">#5E5E5E</color>
+    <color name="recent_trending_clear">#9B9B9B</color>
+
+    <!-- Scrolling items -->
+    <color name="scroll_subtitle_inverted_grey">#FFcdcccc</color>
+    <color name="scroll_subtitle_inverted_grey_dark">#FF9a999e</color>
+    <color name="scroll_fragment_background">#FFe6e6e6</color>
+
+    <color name="toc_topic_picker_background">#0099cc</color>
+
+    <color name="topic_cloud_color">#48FFFFFF</color>
+
+    <color name="text_444">#444444</color>
+
+    <color name="text_999">#999999</color>
+
+    <!-- Item selectors (including ripples) -->
+    <color name="rich_item_white_pressed_color">#2fff</color>
+    <color name="rich_item_grey_pressed_color">#2999</color>
+
+    <color name="gradient_base">#7F000000</color>
+
+    <!--Home Feed Tuning Menu-->
+    <color name="hf_tuning_unselected_tile">#FFEAEAEA</color>
+    <color name="hf_tuning_menu_border">#FFD3D3D3</color>
+    <color name="hf_tuning_thumb_not_selected">#FFD2D2D2</color>
+    <color name="hf_tuning_thumb_tint">#FF888888</color>
+    <color name="hf_tuning_description_show_more">#FF6DB41F</color>
+    <color name="hf_tuning_description_show_less">#FFF5A623</color>
+    <color name="show_less_text_color">#FFFD8331</color>
+    <color name="profile_background">#f7f7f7</color>
+    <color name="tab_profile_logout_text_color">#6898c0</color>
+
+    <!--Column color-->
+    <color name="column_image_shadow">#55000000</color>
+    <color name="column_title_dark_end">#CC000000</color>
+    <color name="column_title_transparent">#00000000</color>
+    <color name="worldhot_title_black">#212121</color>
+    <color name="worldhot_annotation_gray">#333333</color>
+    <color name="daily_zoom_divider">#3C3C3C</color>
+    <color name="gray_f5">#F5F5F5</color>
+    <color name="gray_9D">#9D9D9D</color>
+
+    <color name="color_444444">#444444</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_F0F0F0">#F0F0F0</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_D8D8D8">#D8D8D8</color>
+    <color name="color_F5F5FA">#F5F5FA</color>
+    <color name="color_4A90E2">#4A90E2</color>
+    <color name="color_FF2828">#FF2828</color>
+    <color name="color_828282">#828282</color>
+    <color name="color_4DFF2828">#4DFF2828</color>
+    <color name="color_B3FF2828">#B3FF2828</color>
+    <color name="color_E02829">#E02829</color>
+    <color name="color_E12828">#E12828</color>
+    <color name="color_E12844">#E12844</color>
+    <color name="color_4DE12828">#4DE12828</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_FAFAFA">#FAFAFA</color>
+    <color name="color_DDDDDD">#DDDDDD</color>
+    <color name="color_979797">#979797</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_AFAFAF">#AFAFAF</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_F52828">#F52828</color>
+    <color name="color_F5CACA">#F5CACA</color>
+    <color name="color_4DF52828">#4DF52828</color>
+    <color name="color_F1F1F1">#F1F1F1</color>
+    <color name="color_EAEAEA">#EAEAEA</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_E4E4E4">#E4E4E4</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_0A0A0A">#0A0A0A</color>
+    <color name="color_1A0A0A0A">#1A0A0A0A</color>
+    <color name="color_AA000000">#AA000000</color>
+    <color name="color_55000000">#55000000</color>
+</resources>

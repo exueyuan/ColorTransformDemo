@@ -21,8 +21,8 @@ public class MyClass {
         System.out.println("transformColor:" + transformColor);
 
 
-        copyFileUsingJava7Files("colors.xml", "trans_colors.xml");
-        DomUtils.changeColor("colors.xml");
+        copyFileUsingJava7Files("ColorForm/libs/colors.xml", "ColorForm/libs/trans_colors.xml");
+        DomUtils.changeColor("ColorForm/libs/trans_colors.xml");
     }
 
     private static void copyFileUsingJava7Files(String source, String dest) {
