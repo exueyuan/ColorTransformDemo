@@ -3,6 +3,13 @@ package com.duyi.colorform;
 import org.w3c.dom.Document;
 
 import java.awt.Color;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.file.Files;
 
 public class MyClass {
     public static void main(String[] args) {
@@ -14,7 +21,34 @@ public class MyClass {
         System.out.println("transformColor:" + transformColor);
 
 
-        DomUtils.changeColor("colors");
+        copyFileUsingJava7Files("colors.xml", "trans_colors.xml");
+        DomUtils.changeColor("colors.xml");
+    }
+
+    private static void copyFileUsingJava7Files(String source, String dest) {
+        InputStream input = null;
+        OutputStream output = null;
+        try {
+            input = new FileInputStream(source);
+            output = new FileOutputStream(dest);
+            byte[] buf = new byte[1024];
+            int bytesRead;
+            while ((bytesRead = input.read(buf)) > 0) {
+                output.write(buf, 0, bytesRead);
+            }
+        } catch (Exception e) {
+        } finally {
+            try {
+                input.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                output.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     public static String getTransformColorString(String color) {
