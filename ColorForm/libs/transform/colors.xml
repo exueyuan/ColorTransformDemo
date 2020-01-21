@@ -151,8 +151,8 @@
     <color name="text_999">#FF666666</color>
 
     <!-- Item selectors (including ripples) -->
-    <color name="rich_item_white_pressed_color">#FFFFD000</color>
-    <color name="rich_item_grey_pressed_color">#FFFFD666</color>
+    <color name="rich_item_white_pressed_color">#22000000</color>
+    <color name="rich_item_grey_pressed_color">#22666666</color>
 
     <color name="gradient_base">#7FFFFFFF</color>
 

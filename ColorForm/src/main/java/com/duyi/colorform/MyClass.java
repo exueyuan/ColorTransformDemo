@@ -21,7 +21,7 @@ public class MyClass {
         System.out.println("transformColor:" + transformColor);
 
 
-        copyFileUsingJava7Files("ColorForm/libs/colors.xml", "ColorForm/libs/trans_colors.xml");
+        copyFileUsingJava7Files("ColorForm/libs/colors.xml", "ColorForm/libs/transform/colors.xml");
         DomUtils.changeColor("ColorForm/libs/transform/colors.xml");
     }
 
@@ -99,9 +99,18 @@ public class MyClass {
         }
         if (str.length() == 6) {
             str = "FF" + str;
-        }
-        if (str.length() == 4) {
-            str = "FF00" + str;
+        } else if (str.length() == 4) {
+            String strA = str.substring(0, 1);
+            String strR = str.substring(1,2);
+            String strG = str.substring(2, 3);
+            String strB = str.substring(3, 4);
+            str = strA + strA + strR + strR + strG + strG + strB + strB;
+        } else if (str.length() == 3) {
+            String strA = "FF";
+            String strR = str.substring(0, 1);
+            String strG = str.substring(1,2);
+            String strB = str.substring(2, 3);
+            str = strA + strA + strR + strR + strG + strG + strB + strB;
         }
         return str.toUpperCase();
     }
