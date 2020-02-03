@@ -32,7 +32,7 @@ public class DomUtils {
         for (int i = 0; i < (nlst).getLength(); i++) {
             Element ele = (Element) nlst.item(i);
             String color = ele.getFirstChild().getNodeValue();
-            String replaceColor = MyClass.getTransformColorString(color);
+            String replaceColor = ColorTransformUtils.getTransformColorString(color);
             ele.getFirstChild().setNodeValue(replaceColor);
 //            String colorString = MyClass.getUpperCaseColorString(color);
             /*System.err.println("原颜色值:" + color + ",变了之后的颜色值：" + replaceColor);
