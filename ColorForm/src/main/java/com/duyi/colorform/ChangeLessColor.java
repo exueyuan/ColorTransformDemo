@@ -9,9 +9,9 @@ public class ChangeLessColor {
 
     static {
         translessHashMap.put("#FFFFFF", "#121212");
-        translessHashMap.put("#000000", "#202020");
+//        translessHashMap.put("#000000", "#202020");
         translessHashMap.put("#999999", "#99999999");
         translessHashMap.put("#F7F7F7", "#262626");
-        translessHashMap.put("#CCCCCC", "#262626");
+//        translessHashMap.put("#CCCCCC", "#262626");
     }
 }

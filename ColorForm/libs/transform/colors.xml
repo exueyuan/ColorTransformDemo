@@ -17,7 +17,7 @@
     <color name="background_light_highlighted">#FF181818</color>
     <color name="header_grey">#FFCFCFCF</color>
     <color name="content_drawer_title_separator">#FF6A6A6A</color>
-    <color name="content_drawer_title">#202020</color>
+    <color name="content_drawer_title">#FFFFFFFF</color>
     <color name="content_drawer_subtitle_grey">#FF555555</color>
     <color name="text_white">#121212</color>
     <color name="semi_transparent_white">#80000000</color>
@@ -29,19 +29,19 @@
     <color name="text_link_darker_blue">#FFD45228</color>
     <color name="text_actionbar_button_blue">#FFFF7039</color>
     <color name="divider_light">#66000000</color>
-    <color name="lightgray">#262626</color>
+    <color name="lightgray">#FF333333</color>
     <color name="lightgray_background">#FF111111</color>
-    <color name="true_black">#202020</color>
+    <color name="true_black">#FFFFFFFF</color>
     <color name="translucent_black_66">#AAFFFFFF</color>
     <color name="translucent_black_60">#99FFFFFF</color>
     <color name="translucent_black_50">#80FFFFFF</color>
     <color name="translucent_black_30">#4DFFFFFF</color>
     <color name="translucent_black_00">#00FFFFFF</color>
-    <color name="black">#202020</color>
+    <color name="black">#FFFFFFFF</color>
     <color name="gray_dark">#FFCCCCCC</color>
     <color name="gray">#FF999999</color>
     <color name="gray_medium">#99999999</color>
-    <color name="gray_light">#262626</color>
+    <color name="gray_light">#FF333333</color>
     <color name="gray_90">#FF1A1A1A</color>
     <color name="gray_share_package">#FF1A1A15</color>
     <color name="white">#121212</color>
@@ -77,7 +77,7 @@
     <color name="status_color_inverted">#121212</color>
     <color name="title_color_inverted">#121212</color>
     <color name="linked_text_blue">#FFDB4111</color>
-    <color name="separator">#262626</color>
+    <color name="separator">#FF333333</color>
     <color name="separator_light">#FF222222</color>
     <color name="separator_inverted">#00000000</color>
 
@@ -199,7 +199,7 @@
     <color name="color_979797">#FF686868</color>
     <color name="color_EEEEEE">#FF111111</color>
     <color name="color_AFAFAF">#FF505050</color>
-    <color name="color_000000">#202020</color>
+    <color name="color_000000">#FFFFFFFF</color>
     <color name="color_050505">#FFFAFAFA</color>
     <color name="color_0099CC">#FFFF6633</color>
     <color name="color_BEBEBE">#FF414141</color>
@@ -208,7 +208,7 @@
     <color name="color_4DF52828">#4D0AD7D7</color>
     <color name="color_F1F1F1">#FF0E0E0E</color>
     <color name="color_EAEAEA">#FF151515</color>
-    <color name="color_CCCCCC">#262626</color>
+    <color name="color_CCCCCC">#FF333333</color>
     <color name="color_E4E4E4">#FF1B1B1B</color>
     <color name="color_333333">#FFCCCCCC</color>
     <color name="color_0A0A0A">#FFF5F5F5</color>
