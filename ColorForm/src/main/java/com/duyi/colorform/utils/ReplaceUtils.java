@@ -1,4 +1,4 @@
-package com.duyi.colorform;
+package com.duyi.colorform.utils;
 
 import java.io.BufferedReader;
 import java.io.CharArrayWriter;

@@ -1,4 +1,4 @@
-package com.duyi.colorform;
+package com.duyi.colorform.utils;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

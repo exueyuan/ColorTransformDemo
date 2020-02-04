@@ -1,6 +1,10 @@
 package com.duyi.colorform;
 
 
+import com.duyi.colorform.utils.ColorTransformUtils;
+import com.duyi.colorform.utils.DomUtils;
+import com.duyi.colorform.utils.FileUtils;
+
 public class MyClass {
     public static void main(String[] args) {
 
