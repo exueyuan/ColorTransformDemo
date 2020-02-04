@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <!-- Flipboard Colors -->
-    <color name="brand_red">#FF1ED7D7</color>
+    <color name="brand_red">#FFE12828</color>
     <color name="brand_red_90">#F21ED7D7</color>
     <color name="brand_red_60">#991ED7D7</color>
     <color name="link_blue">#FFFF6633</color>
@@ -190,7 +190,7 @@
     <color name="color_B3FF2828">#B300D7D7</color>
     <color name="color_E02829">#FF1FD7D6</color>
     <color name="color_E02828">#FF1FD7D7</color>
-    <color name="color_E12828">#FF1ED7D7</color>
+    <color name="color_E12828">#FFE12828</color>
     <color name="color_E12844">#FF1ED7BB</color>
     <color name="color_4DE12828">#4D1ED7D7</color>
     <color name="color_F5F5F5">#FF0A0A0A</color>
@@ -203,7 +203,7 @@
     <color name="color_050505">#FFFAFAFA</color>
     <color name="color_0099CC">#FFFF6633</color>
     <color name="color_BEBEBE">#FF414141</color>
-    <color name="color_F52828">#FF0AD7D7</color>
+    <color name="color_F52828">#F52828</color>
     <color name="color_F5CACA">#FF0A3535</color>
     <color name="color_4DF52828">#4D0AD7D7</color>
     <color name="color_F1F1F1">#FF0E0E0E</color>
