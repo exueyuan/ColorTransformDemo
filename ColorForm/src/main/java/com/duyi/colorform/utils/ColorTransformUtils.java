@@ -1,16 +1,26 @@
 package com.duyi.colorform.utils;
 
+import com.duyi.colorform.ChangeLessColor;
+
 import java.awt.Color;
 
 public class ColorTransformUtils {
     public static String getTransformColorString(String color) {
-        //        Color startColor = new Color(255, 180, 0, 58);
-        Color startColor = fromStrToARGB(color);
-//        System.out.println("startColor:"+colorToHexValue(startColor));
+        //这一步，先遍历所有可转换颜色值
+        for (String originalColor : ChangeLessColor.translessHashMap.keySet()) {
+            String upperChangeColor = getUpperCaseColorString(originalColor);
+            String needChangeColor = getUpperCaseColorString(color);
+            if (needChangeColor.equals(upperChangeColor)) {
+                //如果两个颜色一样的话，那么直接返回转换后的颜色值就可以了
+                return ChangeLessColor.translessHashMap.get(originalColor);
+            }
+        }
 
+        //获得初始的颜色值
+        Color startColor = fromStrToARGB(color);
+        //根据初始的颜色值，返回转换后的颜色值
         Color endColor = getTransform(startColor);
 
-//        System.out.println("endColor:"+colorToHexValue(endColor));
         return "#"+colorToHexValue(endColor);
     }
 

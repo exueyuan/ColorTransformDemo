@@ -12,39 +12,39 @@
     <color name="image_foreground_darkening_50_percent">#80FFFFFF</color>
     <color name="image_foreground_darkening_60_percent">#99FFFFFF</color>
     <color name="image_foreground_darkening_gray_40">#66DBDBDB</color>
-    <color name="background_light">#FF080808</color>
+    <color name="background_light">#262626</color>
     <color name="background_tweetlist">#FF0D0D0D</color>
     <color name="background_light_highlighted">#FF181818</color>
     <color name="header_grey">#FFCFCFCF</color>
     <color name="content_drawer_title_separator">#FF6A6A6A</color>
-    <color name="content_drawer_title">#FFFFFFFF</color>
+    <color name="content_drawer_title">#202020</color>
     <color name="content_drawer_subtitle_grey">#FF555555</color>
-    <color name="text_white">#FF000000</color>
+    <color name="text_white">#121212</color>
     <color name="semi_transparent_white">#80000000</color>
     <color name="text_black">#FFD9D9D9</color>
-    <color name="text_lightgray">#FF666666</color>
+    <color name="text_lightgray">#99999999</color>
     <color name="text_paginator">#FF3C3C3C</color>
     <color name="text_lightgray_inverted">#AA000000</color>
     <color name="text_link_blue">#FFDC3303</color>
     <color name="text_link_darker_blue">#FFD45228</color>
     <color name="text_actionbar_button_blue">#FFFF7039</color>
     <color name="divider_light">#66000000</color>
-    <color name="lightgray">#FF333333</color>
+    <color name="lightgray">#262626</color>
     <color name="lightgray_background">#FF111111</color>
-    <color name="true_black">#FFFFFFFF</color>
+    <color name="true_black">#202020</color>
     <color name="translucent_black_66">#AAFFFFFF</color>
     <color name="translucent_black_60">#99FFFFFF</color>
     <color name="translucent_black_50">#80FFFFFF</color>
     <color name="translucent_black_30">#4DFFFFFF</color>
     <color name="translucent_black_00">#00FFFFFF</color>
-    <color name="black">#FFFFFFFF</color>
+    <color name="black">#202020</color>
     <color name="gray_dark">#FFCCCCCC</color>
     <color name="gray">#FF999999</color>
-    <color name="gray_medium">#FF666666</color>
-    <color name="gray_light">#FF333333</color>
+    <color name="gray_medium">#99999999</color>
+    <color name="gray_light">#262626</color>
     <color name="gray_90">#FF1A1A1A</color>
     <color name="gray_share_package">#FF1A1A15</color>
-    <color name="white">#FF000000</color>
+    <color name="white">#121212</color>
     <color name="white_80">#CD000000</color>
     <color name="white_70">#B3000000</color>
     <color name="white_60">#99000000</color>
@@ -73,11 +73,11 @@
     <color name="author_color">#FFD9D9D9</color>
     <color name="status_color">#FFEEEEEE</color>
     <color name="title_color">#FFD9D9D9</color>
-    <color name="author_color_inverted">#FF000000</color>
-    <color name="status_color_inverted">#FF000000</color>
-    <color name="title_color_inverted">#FF000000</color>
+    <color name="author_color_inverted">#121212</color>
+    <color name="status_color_inverted">#121212</color>
+    <color name="title_color_inverted">#121212</color>
     <color name="linked_text_blue">#FFDB4111</color>
-    <color name="separator">#FF333333</color>
+    <color name="separator">#262626</color>
     <color name="separator_light">#FF222222</color>
     <color name="separator_inverted">#00000000</color>
 
@@ -88,7 +88,7 @@
 
     <!-- no content tile -->
     <color name="no_content_tile_background">#FF888888</color>
-    <color name="no_content_tile_text">#FF000000</color>
+    <color name="no_content_tile_text">#121212</color>
 
     <!-- more tile -->
     <color name="more_tile_background">#FF101010</color>
@@ -104,7 +104,7 @@
     <!-- tablet content drawer -->
     <color name="content_drawer_background_tablet">#FF0F0F0F</color>
     <color name="content_drawer_divider_dark_tablet">#FF2F2F2F</color>
-    <color name="content_drawer_divider_light_tablet">#FF000000</color>
+    <color name="content_drawer_divider_light_tablet">#121212</color>
     <color name="content_drawer_header_tablet">#FF686868</color>
 
     <!-- TOC -->
@@ -120,8 +120,8 @@
     <!--Pagebox-->
     <color name="pagebox_list_background">#FF595954</color>
     <color name="pagebox_list_divider">#FF404033</color>
-    <color name="pagebox_list_title">#FF000000</color>
-    <color name="pagebox_list_text">#FF000000</color>
+    <color name="pagebox_list_title">#121212</color>
+    <color name="pagebox_list_text">#121212</color>
 
     <!-- progress -->
     <color name="determinate_busy_view_color">#FF292929</color>
@@ -130,8 +130,8 @@
     <color name="pagebox_sponsored_text_color">#FF2E2E2E</color>
 
     <!-- Search -->
-    <color name="topic_tag_border">#FF666666</color>
-    <color name="topic_tag_text">#FF666666</color>
+    <color name="topic_tag_border">#99999999</color>
+    <color name="topic_tag_text">#99999999</color>
     <color name="see_all_text">#FFD66D2B</color>
     <color name="recent_trending_item">#FFE2E2E2</color>
     <color name="recent_trending_title">#FFA1A1A1</color>
@@ -148,7 +148,7 @@
 
     <color name="text_444">#FFBBBBBB</color>
 
-    <color name="text_999">#FF666666</color>
+    <color name="text_999">#99999999</color>
 
     <!-- Item selectors (including ripples) -->
     <color name="rich_item_white_pressed_color">#22000000</color>
@@ -164,7 +164,7 @@
     <color name="hf_tuning_description_show_more">#FF924BE0</color>
     <color name="hf_tuning_description_show_less">#FF0A59DC</color>
     <color name="show_less_text_color">#FF027CCE</color>
-    <color name="profile_background">#FF080808</color>
+    <color name="profile_background">#262626</color>
     <color name="tab_profile_logout_text_color">#FF97673F</color>
 
     <!--Column color-->
@@ -178,9 +178,9 @@
     <color name="gray_9D">#FF626262</color>
 
     <color name="color_444444">#FFBBBBBB</color>
-    <color name="color_999999">#FF666666</color>
+    <color name="color_999999">#99999999</color>
     <color name="color_F0F0F0">#FF0F0F0F</color>
-    <color name="color_F7F7F7">#FF080808</color>
+    <color name="color_F7F7F7">#262626</color>
     <color name="color_D8D8D8">#FF272727</color>
     <color name="color_F5F5FA">#FF0A0A05</color>
     <color name="color_4A90E2">#FFB56F1D</color>
@@ -199,7 +199,7 @@
     <color name="color_979797">#FF686868</color>
     <color name="color_EEEEEE">#FF111111</color>
     <color name="color_AFAFAF">#FF505050</color>
-    <color name="color_000000">#FFFFFFFF</color>
+    <color name="color_000000">#202020</color>
     <color name="color_050505">#FFFAFAFA</color>
     <color name="color_0099CC">#FFFF6633</color>
     <color name="color_BEBEBE">#FF414141</color>
@@ -208,7 +208,7 @@
     <color name="color_4DF52828">#4D0AD7D7</color>
     <color name="color_F1F1F1">#FF0E0E0E</color>
     <color name="color_EAEAEA">#FF151515</color>
-    <color name="color_CCCCCC">#FF333333</color>
+    <color name="color_CCCCCC">#262626</color>
     <color name="color_E4E4E4">#FF1B1B1B</color>
     <color name="color_333333">#FFCCCCCC</color>
     <color name="color_0A0A0A">#FFF5F5F5</color>
